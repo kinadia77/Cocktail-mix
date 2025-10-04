@@ -5,7 +5,7 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/", // Update the base URL to match your GitHub repository name
+  base: "/Cocktail-mix/", // Update the base URL to match your GitHub repository name
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'), // Define alias for src directory
